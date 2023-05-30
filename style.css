@@ -78,22 +78,23 @@ ul {
 /* additional */
 
 /* 
-### background
+1### background
 background: linear-gradient(250deg, #7b2ff7, #f107a3);
 background: #222222;
+background-color: #E4EBF5;
 background: linear-gradient(180deg, #ff008c 0%, rgb(211, 9, 225) 100%);
 
 
 #####################################################################################################
 
-### shadow
+2### shadow
     -webkit-box-shadow: 0 0 10px #ddd;
     -moz-box-shadow: 0 0 10px #ddd;
     box-shadow: 0 0 10px #ddd;
 
 ######################################################################################################
 
-### sea wave
+3### sea wave
 .landing {
     position: relative;
   }
@@ -110,7 +111,8 @@ background: linear-gradient(180deg, #ff008c 0%, rgb(211, 9, 225) 100%);
     transform-origin: top left;
 }
 #########################################################################
-### spiks
+
+4### spiks
 .spikes {
   position: relative;
 }
@@ -125,6 +127,31 @@ background: linear-gradient(180deg, #ff008c 0%, rgb(211, 9, 225) 100%);
     linear-gradient(225deg, white 25%, transparent 25%);
   background-size: 30px 30px;
 }
+########################################################################################
+
+5### best input
+html(<input type="text" class="form-input" placeholder="Type anything..."/>)
+/* 
+.form-input {
+    width: 20.4rem;
+    height: 4rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    padding-left: 1.4rem;
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+    background: none;
+    font-family: inherit;
+    color: #9baacf;
+  }
+
+  .form-input::placeholder { color: #bec8e4; }
+  .form-input:focus {  outline: none;  box-shadow:inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5),6px 6px 10px 0 rgba(0, 0, 0, 0.2) ; }
+  #########################################################################################################################################################
+  6###
+  grid-template-columns:repeat(auto-fill, minmax(200px, 1fr))
+*/
+
 
 
 */
@@ -396,3 +423,4 @@ background: linear-gradient(180deg, #ff008c 0%, rgb(211, 9, 225) 100%);
   transform: rotate(5deg) scale(1.1);
 }
 /* End Gallery */
+/* 999 */

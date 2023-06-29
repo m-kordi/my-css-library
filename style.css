@@ -8,8 +8,10 @@
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-    outline: none;
+    /* old outline */
+    /* outline: none; */
+    /* new outline */
+    outline-color: transparent;
     margin: 0;
     padding: 0;
     border: 2px solid red;
